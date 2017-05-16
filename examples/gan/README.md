@@ -63,12 +63,15 @@ $ pip install -e $DIGITS_ROOT
 
 The GAN data and visualization plugins for DIGITS may be installed by doing:
 ```sh
+# Clone GAN plugins 
 $ cd $DIGITS_ROOT
 $ mkdir github_down
 $ cd github_down
 $ git clone https://github.com/gheinrich/DIGITS-GAN.git
 $ cp -r $DIGITS_ROOT/plugins/view/gan $DIGITS_ROOT/plugins/view/
 $ cp -r $DIGITS_ROOT/plugins/data/gan $DIGITS_ROOT/plugins/data/
+
+# Install GAN plugins
 $ pip install -e $DIGITS_ROOT/plugins/data/gan/
 $ pip install -e $DIGITS_ROOT/plugins/view/gan/
 ```
